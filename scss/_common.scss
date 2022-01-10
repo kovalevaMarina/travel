@@ -1,0 +1,102 @@
+// general styles
+.main-wrap {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: $light-ivory;
+}
+
+.main-section {
+    flex-grow: 1;
+}
+
+body {
+    color: $black-2;
+}
+
+.container {
+    max-width: 1130px;
+    padding: 0 15px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.flex {
+    &-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    &-align--center {
+        display: flex;
+        align-items: center;
+    }
+}
+
+// styles for text 
+.title {
+    &-h1 {
+        font-family: $fm-montserrat;
+        font-size: $fs-h1;
+        line-height: $h1-ln-height;
+    }
+
+    &-h2 {
+        font-family: $fm-roboto;
+        font-size: $txt-logo;
+        line-height: $txt-logo-ln-height;
+    }
+
+    &-h6 {
+        font-family: $fm-montserrat;
+        font-size: $txt-lg;
+        line-height: $txt-lg-ln-height;
+    }
+}
+
+.txt {
+    &-main {
+        font-family: $fm-pt-serif;
+        font-size: $txt-main;
+        line-height: $txt-main-ln-height;
+    }
+
+    &--uppercase {
+        text-transform: uppercase;
+    }
+
+    &--center {
+        text-align: center;
+    }
+
+    // text color
+    &--pink {
+        color: $pink;
+    }
+
+    &--white {
+        color: $white;
+    }
+
+    // font weight
+    &--normal {
+        font-weight: 400;
+    }
+
+    &--bold {
+        font-weight: 700;
+    }
+}
+
+.btn {
+    display: inline-block;
+    font-family: $fm-montserrat;
+    font-size: $txt-lg;
+    line-height: $txt-lg-ln-height;
+    text-transform: uppercase;
+    transition: $transition-time;
+    cursor: pointer;
+}
+

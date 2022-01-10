@@ -1,3 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=PT+Serif&family=Roboto&display=swap');
 @import "./var";
 @import "./reset";
 @import "./common";
+
+.header {
+    &__wrap {
+        padding-top: 26px;
+    }
+}
+
+.logo-link {
+    transition: $transition-time;
+    &:hover {
+        opacity: 0.6;
+    }
+}
+
+.menu-list {
+    padding: 10px 0;
+    &__item {
+        margin-right: 10px;
+    }
+    &__link {
+        display: inline-block;
+        font-family: $fm-montserrat;
+        font-size: $txt-link;
+        line-height: $txt-link-ln-height;
+        font-weight: 400;
+        color: $black;
+        padding: 7px 13px 8px;
+        border-radius: 5px;
+        text-transform: uppercase;
+        transition: $transition-time;
+        &:hover {
+            background-color: $pink;
+            color: $white;
+        }
+    }
+}
+
+.main {
+    &__wrap {
+        padding: 20px 0;
+    }
+    
+    &__content {
+        max-width: 535px;
+    }
+
+    &-title {
+        margin-bottom: 21px;
+    }
+}
+
+.form {
+    width: 400px;
+    border-radius: 5px;
+    &__wrap {
+        padding: 27px 23px;
+        background-color: $pink;
+    }
+
+    &__title {
+        margin-bottom: 35px;
+    }
+
+    &-input {
+        width: 100%;
+        padding: 18px 11px 11px 18px;
+        border-radius: 5px;
+        border: none;
+        margin-bottom: 17px;
+    }
+
+    &-label {
+        margin-bottom: 22px;
+    }
+
+    &-checkbox {
+        width: 18px;
+        height: 18px;
+        border-radius: 5px;
+        border: none;
+        margin-right: 22px;
+    }
+
+    &__btn {
+        width: 100%;
+        background-color: $black-2;
+        padding: 14px 13px 16px;
+        color: $white;
+        border: 1px solid transparent;
+        border-radius: 5px;
+        &:hover {
+            border: 1px solid $black-2;
+            background-color: $brown;
+            color: $black-2;
+        }
+    }
+}

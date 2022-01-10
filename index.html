@@ -1,9 +1,56 @@
-
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <title>My Site</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel</title>
+    <link rel="stylesheet" href="./styles/main.css">
   </head>
   <body>
-    <h12></h12>
+    <div class="main-wrap">
+      <header class="header">
+        <div class="container">
+          <div class="header__wrap flex-container"><a class="logo-link txt--pink" href="../../index.html">
+              <h2 class="title-h2">Travel</h2></a>
+            <nav class="menu">
+              <ul class="menu-list flex-container">
+                <li class="menu-list__item"><a class="menu-list__link" href="#">Home</a></li>
+                <li class="menu-list__item"><a class="menu-list__link" href="#">About</a></li>
+                <li class="menu-list__item"><a class="menu-list__link" href="#">Services</a></li>
+                <li class="menu-list__item"><a class="menu-list__link" href="#">Gallery</a></li>
+                <li class="menu-list__item"><a class="menu-list__link" href="#">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <main class="main-section">
+        <div class="container">
+          <div class="main__wrap flex-container">
+            <div class="main__content">
+              <h1 class="title-h1 main-title txt--uppercase txt--bold"><span class="txt--pink">Travel is</span> beatiful</h1>
+              <p class="txt-main txt--normal">
+                Lorem Ipsum is simply dummy text of the printing and 
+                typesetting industry. Lorem Ipsum has been the 
+                industry's standard dummy text ever since the 1500s
+              </p>
+            </div>
+            <form class="form form__wrap" action="https://fom.in.ua/echo">
+              <h6 class="title-h6 form__title txt--uppercase txt--white txt--center">Request a quote</h6>
+              <input class="form-input txt-main" type="text" name="name" placeholder="Full Name" required>
+              <input class="form-input txt-main" type="email" name="email" placeholder="Email Adress" required>
+              <input class="form-input txt-main" type="tel" name="phone" placeholder="Phone Number" required>
+              <input class="form-input txt-main" type="text" name="country" placeholder="Country" required>
+              <label class="form-label txt-main txt--white flex-align--center" for="checkbox">
+                <input class="form-checkbox" id="checkbox" type="checkbox" name="accept" value="accept"> 
+                I accept the terms & conditions
+              </label>
+              <input class="btn form__btn" type="submit" value="Send">
+            </form>
+          </div>
+        </div>
+      </main>
+    </div>
   </body>
 </html>
