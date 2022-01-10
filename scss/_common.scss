@@ -49,6 +49,12 @@ body {
         line-height: $txt-logo-ln-height;
     }
 
+    &-h4 {
+        font-family: $fm-roboto;
+        font-size: $fs-h4;
+        line-height: $h4-ln-height;
+    }
+
     &-h6 {
         font-family: $fm-montserrat;
         font-size: $txt-lg;
