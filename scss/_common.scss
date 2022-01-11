@@ -49,6 +49,12 @@ body {
         line-height: $txt-logo-ln-height;
     }
 
+    &-h3 {
+        font-family: $fm-montserrat;
+        font-size: $fs-h3;
+        line-height: $h3-ln-height;
+    }
+
     &-h4 {
         font-family: $fm-roboto;
         font-size: $fs-h4;
@@ -101,6 +107,10 @@ body {
     font-family: $fm-montserrat;
     font-size: $txt-lg;
     line-height: $txt-lg-ln-height;
+    font-weight: 400;
+    color: $black-2;
+    border-radius: 5px;
+    background-color: $light-ivory;
     text-transform: uppercase;
     transition: $transition-time;
     cursor: pointer;

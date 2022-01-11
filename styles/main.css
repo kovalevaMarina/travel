@@ -208,6 +208,12 @@ body {
   line-height: 104px;
 }
 
+.title-h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 60px;
+  line-height: 73px;
+}
+
 .title-h4 {
   font-family: "Roboto", sans-serif;
   font-size: 50px;
@@ -255,6 +261,10 @@ body {
   font-family: "Montserrat", sans-serif;
   font-size: 22px;
   line-height: 27px;
+  font-weight: 400;
+  color: #161616;
+  border-radius: 5px;
+  background-color: #E3D5B8;
   text-transform: uppercase;
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
@@ -356,7 +366,6 @@ body {
   padding: 14px 13px 16px;
   color: #FFFFFF;
   border: none;
-  border-radius: 5px;
 }
 
 .form__btn:hover {
@@ -402,10 +411,7 @@ body {
 }
 
 .services-story__btn {
-  color: #161616;
-  background-color: #E3D5B8;
   padding: 17px 62px;
-  border-radius: 5px;
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
 }
@@ -413,4 +419,46 @@ body {
 .services-story__btn:hover {
   color: #E3D5B8;
   background-color: #161616;
+}
+
+.price {
+  background-color: #E3D5B8;
+  padding-top: 47px;
+}
+
+.price__title {
+  font-family: "Montserrat", sans-serif;
+  color: #1F1F1F;
+  margin-bottom: 47px;
+}
+
+.price-list__item {
+  max-width: 318px;
+  padding: 31px 57px 10px;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+}
+
+.price-list__title-h6 {
+  font-family: "PT Serif", serif;
+  line-height: 29px;
+  margin-bottom: 15px;
+}
+
+.price-list__title-h3 {
+  margin-bottom: 14px;
+}
+
+.price-offer__list {
+  margin-bottom: 31px;
+}
+
+.price__btn {
+  min-width: 205px;
+  padding: 10px;
+}
+
+.price__btn:hover {
+  background-color: #D03958;
+  color: #FFFFFF;
 }
