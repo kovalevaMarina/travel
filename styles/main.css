@@ -491,13 +491,17 @@ body {
   margin-bottom: 47px;
 }
 
+.price-list {
+  margin-right: -15px;
+}
+
 .price-list__item {
   max-width: 318px;
   min-height: 389px;
   position: relative;
   padding: 31px 57px 0;
+  margin-right: 15px;
   background-color: #FFFFFF;
-  border-radius: 5px 5px 0 0;
 }
 
 .price-list__title-h6 {
@@ -632,6 +636,18 @@ body {
 
 .footer__link:hover {
   opacity: 0.8;
+}
+
+@media screen and (max-width: 1040px) {
+  .price-list {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .price-list__item {
+    padding: 31px 35px 10px;
+    margin-bottom: 15px;
+  }
 }
 
 @media screen and (max-width: 1000px) {

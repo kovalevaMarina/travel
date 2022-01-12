@@ -160,13 +160,14 @@
     }
 
     &-list {
+        margin-right: -15px;
         &__item {
             max-width: 318px;
             min-height: 389px;
             position: relative;
             padding: 31px 57px 0;
+            margin-right: 15px;
             background-color: $white;
-            border-radius: 5px 5px 0 0;
         }
 
         &__title {
