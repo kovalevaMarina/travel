@@ -2,12 +2,7 @@
 .main-wrap {
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
     background-color: $light-ivory;
-}
-
-.main-section {
-    flex-grow: 1;
 }
 
 body {
