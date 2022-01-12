@@ -1,9 +1,8 @@
 @media screen and (max-width: 1040px) {
     .price {
         &-list {
-            justify-content: center;
             &__item {
-                padding: 31px 35px 10px;
+                padding: 31px 57px 10px;
                 margin-bottom: 15px;
             }
         }
@@ -29,15 +28,55 @@
     }
 }
 
+@media screen and (max-width: 940px) {
+    .gallery-testimonial {
+        padding: 60px 0 60px;
+        &__wrap {
+            justify-content: center;
+        }
+    }
+    
+    .testimonial {
+        &-list {
+            &__item {
+                max-width: 100%;
+                margin-right: 40px;
+            }
+        }
+    }
+
+    .gallery {
+        &-list {
+            &__item {
+                margin-right: 10px;
+            }
+        }
+    }
+}
+
+
 @media screen and (max-width: 500px) {
     .title {
         &-h1 {
             font-size: $fs-h4;
             line-height: $h4-ln-height;
         }
+
+        &-h4 {
+            font-size: $txt-media;
+        }
     }
     
     .form {
         width: 100%;
+    }
+
+    .price {
+        &-list {
+            justify-content: center;
+            &__item {
+                padding: 31px 35px 10px;
+            }
+        }
     }
 }
