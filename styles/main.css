@@ -196,6 +196,30 @@ body {
           align-items: center;
 }
 
+.flex-column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.flex-between {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
 .title-h1 {
   font-family: "Montserrat", sans-serif;
   font-size: 90px;
@@ -269,6 +293,21 @@ body {
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
   cursor: pointer;
+}
+
+.images__wrap {
+  width: 104px;
+  height: 104px;
+}
+
+.images {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+  -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+          filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .header__wrap {
@@ -461,4 +500,76 @@ body {
 .price__btn:hover {
   background-color: #D03958;
   color: #FFFFFF;
+}
+
+.gallery-testimonial {
+  padding: 123px 0 112px;
+}
+
+.testimonial__title {
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 45px;
+}
+
+.testimonial-list__item {
+  max-width: 431px;
+  padding: 20px 49px 27px 22px;
+  margin-bottom: 35px;
+  margin-right: 50px;
+  position: relative;
+  background-color: #E3D5B8;
+}
+
+.testimonial-list__text {
+  margin-bottom: 17px;
+}
+
+.testimonial-list__author {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.testimonial-img__wrap {
+  position: absolute;
+  right: -52px;
+  top: calc(50% - 52px);
+}
+
+.gallery__title {
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 56px;
+}
+
+.gallery-list {
+  max-width: 384px;
+  margin-bottom: 20px;
+}
+
+.gallery-list__item {
+  margin-bottom: 28px;
+}
+
+.gallery-list__item-img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+  -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+          filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.gallery__link {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.gallery__link:hover {
+  color: #161616;
 }
