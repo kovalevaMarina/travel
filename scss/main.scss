@@ -155,9 +155,11 @@
     &-list {
         &__item {
             max-width: 318px;
-            padding: 31px 57px 10px;
+            min-height: 389px;
+            position: relative;
+            padding: 31px 57px 0;
             background-color: $white;
-            border-radius: 5px;
+            border-radius: 5px 5px 0 0;
         }
 
         &__title {
@@ -183,6 +185,25 @@
         &:hover {
             background-color: $pink;
             color: $white;
+        }
+    }
+
+    &-popular {
+        position: absolute;
+        top: 0;
+        left: 0;
+        border: 50px solid transparent; 
+        border-left: 50px solid $brown; 
+        border-top: 50px solid $brown;
+        &__txt {
+            position: absolute;
+            transform: rotate(-45deg);
+            top: -31px;
+            left: -45px;
+            font-family: $fm-pt-serif;
+            font-size: $txt-popular;
+            line-height: $txt-link-ln-height;
+            color: $black-3;
         }
     }
 }
@@ -255,6 +276,20 @@
         transition: $transition-time;
         &:hover {
             color: $black-2;
+        }
+    }
+}
+
+.footer {
+    background-color: $black-2;
+    &__wrap {
+        padding: 50px 0;
+    }
+
+    &__link {
+        transition: $transition-time;
+        &:hover {
+            opacity: 0.8;
         }
     }
 }

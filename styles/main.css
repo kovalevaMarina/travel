@@ -209,6 +209,22 @@ body {
           align-items: center;
 }
 
+.flex-column--between {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .flex-between {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -473,9 +489,11 @@ body {
 
 .price-list__item {
   max-width: 318px;
-  padding: 31px 57px 10px;
+  min-height: 389px;
+  position: relative;
+  padding: 31px 57px 0;
   background-color: #FFFFFF;
-  border-radius: 5px;
+  border-radius: 5px 5px 0 0;
 }
 
 .price-list__title-h6 {
@@ -500,6 +518,27 @@ body {
 .price__btn:hover {
   background-color: #D03958;
   color: #FFFFFF;
+}
+
+.price-popular {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 50px solid transparent;
+  border-left: 50px solid #B4A993;
+  border-top: 50px solid #B4A993;
+}
+
+.price-popular__txt {
+  position: absolute;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  top: -31px;
+  left: -45px;
+  font-family: "PT Serif", serif;
+  font-size: 16px;
+  line-height: 22px;
+  color: #1F1F1F;
 }
 
 .gallery-testimonial {
@@ -572,4 +611,21 @@ body {
 
 .gallery__link:hover {
   color: #161616;
+}
+
+.footer {
+  background-color: #161616;
+}
+
+.footer__wrap {
+  padding: 50px 0;
+}
+
+.footer__link {
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.footer__link:hover {
+  opacity: 0.8;
 }

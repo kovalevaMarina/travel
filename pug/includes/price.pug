@@ -2,7 +2,7 @@ section.price
     .container
         h4.title-h4.price__title.txt--uppercase.txt--center.txt--bold Pricing
         ul.price-list.flex-container
-            li.price-list__item.txt--center
+            li.price-list__item.flex-column--between
                 h6.title-h6.price-list__title-h6.txt--normal Starter
                 h3.title-h3.price-list__title-h3.txt--uppercase.txt--pink.txt--bold Free
                 ul.price-offer__list.txt--center
@@ -12,7 +12,7 @@ section.price
                     li.price-offer__item --
                     li.price-offer__item --
                 button.btn.price__btn Try
-            li.price-list__item.txt--center
+            li.price-list__item.flex-column--between
                 h6.title-h6.price-list__title-h6.txt--normal Business
                 h3.title-h3.price-list__title-h3.txt--uppercase.txt--pink.txt--bold $97
                 ul.price-offer__list.txt--center
@@ -22,7 +22,9 @@ section.price
                     li.price-offer__item.txt-main Unlimited Data
                     li.price-offer__item --
                 button.btn.price__btn Sign up
-            li.price-list__item.txt--center
+                .price-popular
+                    p.price-popular__txt Popular
+            li.price-list__item.flex-column--between
                 h6.title-h6.price-list__title-h6.txt--normal Professional
                 h3.title-h3.price-list__title-h3.txt--uppercase.txt--pink.txt--bold $297
                 ul.price-offer__list.txt--center
