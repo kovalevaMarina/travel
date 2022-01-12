@@ -52,6 +52,16 @@
             }
         }
     }
+
+    .footer {
+        &__wrap {
+            justify-content: center;
+        }
+
+        &__txt {
+            text-align: center;
+        }
+    }
 }
 
 
@@ -63,7 +73,7 @@
         }
 
         &-h4 {
-            font-size: $txt-media;
+            font-size: 38px;
         }
     }
     

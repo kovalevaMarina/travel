@@ -629,6 +629,10 @@ body {
   padding: 50px 0;
 }
 
+.footer__txt {
+  margin-right: 15px;
+}
+
 .footer__link {
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
@@ -676,6 +680,14 @@ body {
   .gallery-list__item {
     margin-right: 10px;
   }
+  .footer__wrap {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .footer__txt {
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -684,8 +696,7 @@ body {
     line-height: 61px;
   }
   .title-h4 {
-    font-size: 22px;
-    line-height: 27px;
+    font-size: 38px;
   }
   .form {
     width: 100%;
