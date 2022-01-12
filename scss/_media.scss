@@ -1,0 +1,31 @@
+@media screen and (max-width: 1000px) {
+    .main {
+        &__content {
+            max-width: 100%;
+            margin-right: 0;
+        }
+    }
+    
+    .form {
+        position: static;
+    }
+
+    .services {
+        &-list {
+            justify-content: center;
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .title {
+        &-h1 {
+            font-size: $fs-h4;
+            line-height: $h4-ln-height;
+        }
+    }
+    
+    .form {
+        width: 100%;
+    }
+}

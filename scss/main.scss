@@ -47,6 +47,7 @@
     &__content {
         max-width: 535px;
         margin-right: 10px;
+        margin-bottom: 20px;
     }
 
     &-title {
@@ -102,15 +103,20 @@
 }
 
 .services {
-    padding-top: 31px;
+    &__wrap {
+        padding-top: 31px;
+        padding-bottom: 62px;
+    }
+
     &-title {
         margin-bottom: 89px;
     }
 
     &-list {
-        margin-bottom: 62px;
+        margin: -15px;
         &__item {
             max-width: 176px;
+            margin: 15px;
         }
 
         &__img {
@@ -123,22 +129,23 @@
             }
         }
     }
+}
 
-    &-story {
-        padding: 28px 0;
-        background-color: $pink;
-        &__txt {
-            max-width: 629px;
-            margin-right: 10px;
-        }
+.story {
+    padding: 28px 0;
+    background-color: $pink;
+    &__txt {
+        max-width: 629px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
 
-        &__btn {
-            padding: 17px 62px;
-            transition: $transition-time;
-            &:hover {
-                color: $light-ivory;
-                background-color: $black-2;
-            }
+    &__btn {
+        padding: 17px 62px;
+        transition: $transition-time;
+        &:hover {
+            color: $light-ivory;
+            background-color: $black-2;
         }
     }
 }
@@ -293,3 +300,5 @@
         }
     }
 }
+
+@import "./media";
