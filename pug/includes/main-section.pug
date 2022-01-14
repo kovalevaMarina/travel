@@ -9,15 +9,10 @@ main.main-section
                     industry's standard dummy text ever since the 1500s
             form.form.form__wrap(action="https://fom.in.ua/echo")
                 h6.title-h6.form__title.txt--uppercase.txt--white.txt--center Request a quote
-                |
-                input.form-input.txt-main(type="text" name="name" placeholder="Full Name" required)
-                |
-                input.form-input.txt-main(type="email" name="email" placeholder="Email Adress" required)
-                |
-                input.form-input.txt-main(type="tel" name="phone" placeholder="Phone Number" required)
-                |
-                input.form-input.txt-main(type="text" name="country" placeholder="Country" required)
-                |
+                +input-area('text', 'name', 'Full Name')
+                +input-area('email', 'email', 'Email Adress')
+                +input-area('tel', 'phone', 'Phone Number')
+                +input-area('text', 'country', 'Country')
                 label.form-label.txt-main.txt--white.flex-align--center(for="checkbox")
                     input.form-checkbox#checkbox(type="checkbox" name="accept" value="accept")
                     | 

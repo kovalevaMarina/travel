@@ -1,0 +1,6 @@
+mixin navitem (name)
+    li.menu-list__item
+        a(href="#").menu-list__link= name
+
+mixin input-area(typeInput, nameInput, placeholderInput)
+    input.form-input.txt-main(type=typeInput name=nameInput placeholder=placeholderInput required)

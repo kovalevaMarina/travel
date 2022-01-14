@@ -4,13 +4,8 @@ header.header
             include logo.pug
             nav.menu
                 ul.menu-list.flex-container
-                    li.menu-list__item
-                        a(href="#").menu-list__link Home
-                    li.menu-list__item
-                        a(href="#").menu-list__link About
-                    li.menu-list__item
-                        a(href="#").menu-list__link Services
-                    li.menu-list__item
-                        a(href="#").menu-list__link Gallery
-                    li.menu-list__item
-                        a(href="#").menu-list__link Contact
+                    +navitem('Home')
+                    +navitem('About')
+                    +navitem('Services')
+                    +navitem('Gallery')
+                    +navitem('Contact')
