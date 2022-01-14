@@ -234,6 +234,9 @@
             margin-right: 70px;
             position: relative;
             background-color: $light-ivory;
+            &:first-child {
+                background-color: $white;
+            }
         }
 
         &__text {

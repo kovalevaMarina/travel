@@ -553,6 +553,10 @@ body {
   background-color: #E3D5B8;
 }
 
+.testimonial-list__item:first-child {
+  background-color: #FFFFFF;
+}
+
 .testimonial-list__text {
   margin-bottom: 17px;
 }

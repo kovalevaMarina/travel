@@ -22,18 +22,12 @@ section.gallery-testimonial
             .gallery__content.flex-column
                 h4.title-h4.gallery__title.txt--uppercase.txt--bold.txt--pink Gallery
                 ul.gallery-list.flex-container
-                    li.gallery-list__item.images__wrap
-                        img.images(src="./assets/img/girl.jpg", alt="Picture girl")
-                    li.gallery-list__item.images__wrap
-                        img.images(src="./assets/img/berries.jpg", alt="Picture berries")
-                    li.gallery-list__item.images__wrap
-                        img.images(src="./assets/img/lemon.jpg", alt="Picture lemon")
-                    li.gallery-list__item.images__wrap
-                        img.images(src="./assets/img/cups.jpg", alt="Picture cups")
-                    li.gallery-list__item.images__wrap
-                        img.images(src="./assets/img/car.jpg", alt="Picture car")
-                    li.gallery-list__item.images__wrap
-                        img.images(src="./assets/img/stone.jpg", alt="Picture stones")
+                    +galleryimg('girl', 'Picture girl')
+                    +galleryimg('berries', "Picture berries")
+                    +galleryimg('lemon', 'Picture lemon')
+                    +galleryimg('cups', 'Picture cups')
+                    +galleryimg('car', 'Picture car')
+                    +galleryimg('stone', 'Picture girl')
                 |
                 |
                 a.gallery__link.txt--uppercase.txt--normal.txt--pink(href="#") View more pictures

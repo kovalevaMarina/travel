@@ -2,5 +2,9 @@ mixin navitem (name)
     li.menu-list__item
         a(href="#").menu-list__link= name
 
-mixin input-area(typeInput, nameInput, placeholderInput)
+mixin input-area (typeInput, nameInput, placeholderInput)
     input.form-input.txt-main(type=typeInput name=nameInput placeholder=placeholderInput required)
+
+mixin galleryimg (imageName, altText)
+    li.gallery-list__item.images__wrap
+        img.images(src="./assets/img/" + imageName + ".jpg", alt=altText)
