@@ -1,20 +1,20 @@
 main.main-section
-    .container
-        .main__wrap.flex-container
-            .main__content
-                h1.title-h1.main-title.txt--uppercase.txt--bold #[span.txt--pink Travel is] beatiful
-                p.txt-main.txt--normal.
-                    Lorem Ipsum is simply dummy text of the printing and 
-                    typesetting industry. Lorem Ipsum has been the 
-                    industry's standard dummy text ever since the 1500s
-            form.form.form__wrap(action="https://fom.in.ua/echo")
-                h6.title-h6.form__title.txt--uppercase.txt--white.txt--center Request a quote
-                +input-area('text', 'name', 'Full Name')
-                +input-area('email', 'email', 'Email Adress')
-                +input-area('tel', 'phone', 'Phone Number')
-                +input-area('text', 'country', 'Country')
-                label.form-label.txt-main.txt--white.flex-align--center(for="checkbox")
-                    input.form-checkbox#checkbox(type="checkbox" name="accept" value="accept")
-                    | 
-                    | I accept the terms & conditions
-                input.btn.form__btn(type="submit" value="Send")
+  .container
+    .main__wrap.flex-container
+      .main__content
+        h1.title-h1.main-title.txt--uppercase.txt--bold #[span.txt--pink Travel is] beatiful
+        p.txt-main.txt--normal.
+          Lorem Ipsum is simply dummy text of the printing and 
+          typesetting industry. Lorem Ipsum has been the 
+          industry's standard dummy text ever since the 1500s
+      form.form.form__wrap(action="https://fom.in.ua/echo")
+        h6.title-h6.form__title.txt--uppercase.txt--white.txt--center Request a quote
+        +input-area('text', 'name', 'Full Name')
+        +input-area('email', 'email', 'Email Adress')
+        +input-area('tel', 'phone', 'Phone Number')
+        +input-area('text', 'country', 'Country')
+        label.form-label.txt-main.txt--white.flex-align--center(for="checkbox")
+          input.form-checkbox#checkbox(type="checkbox" name="accept" value="accept")
+          | 
+          | I accept the terms & conditions
+        input.btn.form__btn(type="submit" value="Send")
