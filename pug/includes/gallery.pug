@@ -1,7 +1,7 @@
 section.gallery-testimonial
   .container 
-    .gallery-testimonial__wrap.flex-between
-      .testimonial__content
+    .gallery-testimonial__wrap.row
+      .testimonial__content.col-7.col-md-12
         h4.title-h4.testimonial__title.txt--uppercase.txt--center.txt--bold Testimonial
         ul.testimonial-list
           li.testimonial-list__item
@@ -19,11 +19,11 @@ section.gallery-testimonial
               DJ Bravo - Frequent Travelera
             .images__wrap.testimonial-img__wrap
               img.images(src="./assets/img/woman.png", alt="Photo woman")
-      .gallery__content.flex-column
+      .gallery__content.col-5.col-md-12.flex-column
         h4.title-h4.gallery__title.txt--uppercase.txt--bold.txt--pink Gallery
         ul.gallery-list.flex-container
           +galleryimg('girl', 'Picture girl')
-          +galleryimg('berries', "Picture berries")
+          +galleryimg('berries', 'Picture berries')
           +galleryimg('lemon', 'Picture lemon')
           +galleryimg('cups', 'Picture cups')
           +galleryimg('car', 'Picture car')
