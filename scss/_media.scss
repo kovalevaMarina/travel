@@ -47,6 +47,12 @@
       }
     }
 
+    .main {
+        &__content {
+            max-width: 100%;
+        }
+    }
+
     .price {
         &-list {
             &__item {

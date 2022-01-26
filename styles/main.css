@@ -336,8 +336,9 @@ body {
   margin-bottom: 21px;
 }
 
-.main__content-txt {
-  max-width: 491px;
+.main__content {
+  max-width: 535px;
+  margin-bottom: 15px;
 }
 
 .form {
@@ -765,6 +766,9 @@ body {
   .col-lg-12 {
     max-width: 100%;
     padding: 15px 15px 0 15px;
+  }
+  .main__content {
+    max-width: 100%;
   }
   .price-list__item {
     padding-bottom: 10px;

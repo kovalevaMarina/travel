@@ -27,8 +27,8 @@
       </header>
       <main class="main-section">
         <div class="container">
-          <div class="main__wrap row">
-            <div class="main__content col-6 col-xl-12">
+          <div class="main__wrap flex-container">
+            <div class="main__content">
               <h1 class="title-h1 main-title txt--uppercase txt--bold"><span class="txt--pink">Travel is</span> beatiful</h1>
               <p class="main__content-txt txt-main txt--normal">
                 Lorem Ipsum is simply dummy text of the printing and 
@@ -36,20 +36,18 @@
                 industry's standard dummy text ever since the 1500s
               </p>
             </div>
-            <div class="col-6 col-xl-12">
-              <form class="form form__wrap" action="https://fom.in.ua/echo">
-                <h6 class="title-h6 form__title txt--uppercase txt--white txt--center">Request a quote</h6>
-                    <input class="form-input txt-main" type="text" name="name" placeholder="Full Name" required>
-                    <input class="form-input txt-main" type="email" name="email" placeholder="Email Adress" required>
-                    <input class="form-input txt-main" type="tel" name="phone" placeholder="Phone Number" required>
-                    <input class="form-input txt-main" type="text" name="country" placeholder="Country" required>
-                <label class="form-label txt-main txt--white flex-align--center" for="checkbox">
-                  <input class="form-checkbox" id="checkbox" type="checkbox" name="accept" value="accept"> 
-                  I accept the terms & conditions
-                </label>
-                <input class="btn form__btn" type="submit" value="Send">
-              </form>
-            </div>
+            <form class="form form__wrap" action="https://fom.in.ua/echo">
+              <h6 class="title-h6 form__title txt--uppercase txt--white txt--center">Request a quote</h6>
+                  <input class="form-input txt-main" type="text" name="name" placeholder="Full Name" required>
+                  <input class="form-input txt-main" type="email" name="email" placeholder="Email Adress" required>
+                  <input class="form-input txt-main" type="tel" name="phone" placeholder="Phone Number" required>
+                  <input class="form-input txt-main" type="text" name="country" placeholder="Country" required>
+              <label class="form-label txt-main txt--white flex-align--center" for="checkbox">
+                <input class="form-checkbox" id="checkbox" type="checkbox" name="accept" value="accept"> 
+                I accept the terms & conditions
+              </label>
+              <input class="btn form__btn" type="submit" value="Send">
+            </form>
           </div>
         </div>
       </main>
